@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Retro Product Micro-site">
+    <title>Retro Product - Home</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">Retro<span>Vibe</span></div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                   <li><a href="#testimonials">Testimonials</a></li>
+                    <!-- <li><a href="#contact">Contact</a></li> -->
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Discover <span>Vintage</span> Treasures</h1>
+                <p>Step back in time with our curated collection of authentic retro products that bring nostalgic charm to your modern lifestyle.</p>
+                <a href="#products" class="btn">Shop Now</a>
+                <a href="#features" class="btn btn-secondary">Learn More</a>
+            </div>
+            <div class="hero-image">
+                <img src="images/vintage-record-player.jpg" alt="Vintage Record Player">
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-title">
+                <h2>Featured Products</h2>
+            </div>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product1.jpg" alt="Vintage CELLPHONE">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Vintage CELLPHONE</h3>
+                        <div class="product-price">$199.99</div>
+                        <p class="product-description">Experience music as it was meant to be heard with our authentic vintage-inspired record player with modern connectivity.</p>
+                        <a href="#" class="btn add-to-cart">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product2.jpg" alt="Vintage Camera">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Vintage Camera</h3>
+                        <div class="product-price">$89.99</div>
+                        <p class="product-description">This fully functional rotary telephone combines vintage aesthetics with modern technology for a unique communication.</p>
+                        <a href="#" class="btn add-to-cart">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product3.jpg" alt="Vintage CAMCORDER">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Vintage CAMCORDER</h3>
+                        <div class="product-price">$129.99</div>
+                        <p class="product-description">Capture memories with this instant film camera that produces physical photographs with that classic vintage look and feel.</p>
+                        <a href="#" class="btn add-to-cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>What Our Customers Say</h2>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial-slide active">
+                    <p class="testimonial-text">"I bought the vinyl record player for my father's birthday. He was thrilled to rediscover his old record collection, and the sound quality is exceptional. The modern connectivity options make it perfect for everyday use."</p>
+                    <p class="testimonial-author">- Sarah Johnson</p>
+                </div>
+
+                <div class="testimonial-slide">
+                    <p class="testimonial-text">"The retro telephone is both a functional device and a conversation piece in my living room. Everyone who visits asks about it! The quality is outstanding and it works perfectly with my modern setup."</p>
+                    <p class="testimonial-author">- Michael Thompson</p>
+                </div>
+
+                <div class="testimonial-slide">
+                    <p class="testimonial-text">"I'm in love with my instant camera! In a world of digital everything, there's something magical about having a physical photograph in your hands moments after taking it. The vintage aesthetic is exactly what I was looking for."</p>
+                    <p class="testimonial-author">- Emily Rodriguez</p>
+                </div>
+
+                <div class="testimonial-controls">
+                    <div class="testimonial-dot active" data-slide="0"></div>
+                    <div class="testimonial-dot" data-slide="1"></div>
+                    <div class="testimonial-dot" data-slide="2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="container">
+            <h2>Join Our Retro Community</h2>
+            <p>Subscribe to our newsletter to receive exclusive offers, retro inspiration, and be the first to know about new arrivals.</p>
+            <form class="newsletter-form" onsubmit="subscribe(event)">
+                <input type="email" class="newsletter-input" id="email" placeholder="Your email address" required>
+                <button type="submit" class="newsletter-btn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    
+   <!-- Footer Section -->
+<footer class="dark-footer">
+    <div class="container">
+        <div class="footer-content">
+            <h2>Contact Information</h2>
+            
+            <div class="contact-details">
+                <div class="contact-item">
+                    <h3>Address</h3>
+                    <p>123 Retro Street<br>Vintage City, VC 12345</p>
+                </div>
+                
+                <div class="contact-item">
+                    <h3>Phone</h3>
+                    <p>(555) 123-4567</p>
+                </div>
+                
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <p>info@retrovibe.com</p>
+                </div>
+                
+                <div class="contact-item">
+                    <h3>Hours</h3>
+                    <p>Monday - Friday: 9am - 5pm<br>Saturday: 10am - 4pm<br>Sunday: Closed</p>
+                </div>
+            </div>
+            
+            <div class="footer-divider"></div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 RetroVibe. All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
